@@ -8,7 +8,7 @@ app.use(cors())
 const port = process.env.PORT || 4000
 
 app.get('/', function(req, res){
-	res.send('Welcome to FIFA2022 Qatar')
+	res.send('Welcome to FIFA22 Qatar')
 })
 app.get('/teams', function(req,res){
 	res.send(data)
