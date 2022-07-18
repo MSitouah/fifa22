@@ -6,10 +6,7 @@ var cors = require('cors')
 app.use(cors())
 
 const port = process.env.PORT || 4000
-var arr = new Array();
 
-
-arr = data;
 app.get('/', function(req, res){
 	res.send('Welcome to FIFA2022 Qatar')
 })
